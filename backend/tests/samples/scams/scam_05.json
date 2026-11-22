@@ -1,0 +1,7 @@
+{
+  "id": "scam_05",
+  "title": "SBI YONO Account Blocked KYC Phishing",
+  "category": "Banking KYC Phishing",
+  "expected_verdict": "LIKELY SCAM",
+  "text": "Dear SBI Customer, your YONO account has been suspended today because your PAN card is not linked. Update immediately to prevent permanent debit block: http://sbi-kyc-update.xyz/login. Enter your user ID, password and OTP."
+}

@@ -1,0 +1,7 @@
+{
+  "id": "genuine_02",
+  "title": "SBI Official Transaction Alert",
+  "category": "Bank Transaction SMS",
+  "expected_verdict": "LOOKS GENUINE",
+  "text": "Dear SBI User, your A/C ending ...5821 debited by Rs 1,450.00 on 18-Nov-2024 at 14:22:10 by UPI Ref 432489128912. Bal: Rs 28,410.20. If not done by you, forward this SMS to 9223008333 or call toll-free 18001234."
+}

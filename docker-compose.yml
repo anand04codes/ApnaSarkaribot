@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  sarkarisach:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sarkarisach_app
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - GEMINI_MODEL=${GEMINI_MODEL:-gemini-2.5-flash}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - DATABASE_URL=sqlite:///./sarkarisach.db
+    volumes:
+      - sarkarisach_data:/app
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+volumes:
+  sarkarisach_data:
+

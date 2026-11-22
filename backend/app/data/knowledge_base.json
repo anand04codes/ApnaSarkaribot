@@ -1,0 +1,91 @@
+{
+  "project": "SarkariSach",
+  "version": "1.0.0",
+  "helplines": {
+    "national_cyber_crime": {
+      "phone": "1930",
+      "portal": "https://cybercrime.gov.in",
+      "description": "National Cyber Crime Reporting Portal (under Ministry of Home Affairs / I4C)"
+    },
+    "emergency": {
+      "phone": "112",
+      "description": "National Emergency Number"
+    },
+    "trai_sancharsaathi": {
+      "portal": "https://sancharsaathi.gov.in",
+      "chakshu_portal": "https://sancharsaathi.gov.in/sfc/",
+      "description": "DoT Sanchar Saathi for reporting fraudulent calls/SMS (Chakshu) and blocking lost/stolen phones (CEIR)"
+    },
+    "rbi_ombudsman": {
+      "phone": "14448",
+      "portal": "https://cms.rbi.org.in",
+      "description": "Reserve Bank of India Ombudsman for banking complaints"
+    }
+  },
+  "golden_rules": [
+    "No Indian law enforcement agency (CBI, ED, Police, Customs, NIA, Narcotics Control Bureau) ever conducts arrests, searches, or formal interrogations over Skype, WhatsApp, or video calls.",
+    "The concept of 'Digital Arrest' is completely fictitious and does NOT exist in Indian law (CrPC / Bharatiya Nagarik Suraksha Sanhita). Any claim of digital arrest is 100% a scam.",
+    "TRAI (Telecom Regulatory Authority of India) and DoT never call citizens to say 'your mobile number will be disconnected in 2 hours' or demand money or Aadhaar verification over the phone.",
+    "No Indian bank, official department, or tax authority will ever ask for OTP, UPI PIN, ATM PIN, or CVV. UPI PIN is used ONLY to send/deduct money, NEVER to receive money or refunds.",
+    "Police, Court, or CBI notices are never served via personal WhatsApp numbers (+91-9... or international numbers like +92, +880, +1). Official correspondence comes via registered post, official police email (.gov.in), or formal in-person summons.",
+    "Electricity departments do not disconnect power connections on the same day via SMS links; state electricity boards send official bill notices with consumer numbers through official SMS headers (e.g., AD-MSEB, VM-BESCOM), never personal phone numbers.",
+    "Government subsidies (PM Kisan, Ladli Behna, PMAY, free laptops, etc.) are never delivered via APK downloads or WhatsApp links with url shorteners.",
+    "E-Challan payment notices from Traffic Police are hosted exclusively on https://echallan.parivahan.gov.in or official state police portals. Fake challan messages link to look-alike URLs or APK downloads.",
+    "No genuine authority will demand money transfer to 'clear your name' in a money laundering case or 'verify your funds in a RBI verification account'."
+  ],
+  "known_scam_categories": {
+    "digital_arrest": {
+      "name": "Digital Arrest / Law Enforcement Impersonation",
+      "tactics": [
+        "Threatening arrest for parcel containing illegal drugs, fake passports, or money laundering",
+        "Video call in fake police station setup with uniform",
+        "Demanding money transfer into 'RBI security account' to clear charges",
+        "Forged CBI, Mumbai/Delhi Police, Supreme Court or Interpol arrest warrants"
+      ],
+      "risk_rating": 98
+    },
+    "trai_sim_block": {
+      "name": "TRAI / DoT Telecom Disconnection Scam",
+      "tactics": [
+        "Automated IVR call stating phone number will be terminated within 2 hours",
+        "Asking to press 9 to speak with an executive",
+        "Claiming number was used in harassing messages or financial fraud"
+      ],
+      "risk_rating": 95
+    },
+    "fake_kyc_bank": {
+      "name": "Bank / Wallet KYC Expiry Scam",
+      "tactics": [
+        "SMS threatening account suspension if KYC is not updated today",
+        "Links to phishing forms mimicking SBI, HDFC, ICICI, PNB or Paytm",
+        "Demanding installation of AnyDesk, TeamViewer, or QuickSupport to 'assist'"
+      ],
+      "risk_rating": 95
+    },
+    "electricity_bill": {
+      "name": "Electricity / Utility Bill Disconnection Scam",
+      "tactics": [
+        "SMS: 'Dear consumer your electricity power will be disconnected tonight at 9:30 PM because previous month bill was not updated'",
+        "Provides an unverified mobile number to contact the 'electricity officer'"
+      ],
+      "risk_rating": 96
+    },
+    "fake_challan": {
+      "name": "Fake Traffic E-Challan APK Scam",
+      "tactics": [
+        "SMS claiming a pending traffic fine with vehicle number",
+        "Direct link to download a malicious .apk file named Parivahan_challan.apk"
+      ],
+      "risk_rating": 96
+    },
+    "lottery_job_scheme": {
+      "name": "Work from Home / Part-Time Telegram Task / PM Scheme Scam",
+      "tactics": [
+        "Telegram group offering daily income for YouTube likes, hotel reviews",
+        "Fake PM Kisan 17th installment disbursement link",
+        "Initial small payout followed by large deposits that can never be withdrawn"
+      ],
+      "risk_rating": 92
+    }
+  }
+}

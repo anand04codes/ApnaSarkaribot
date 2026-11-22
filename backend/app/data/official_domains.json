@@ -1,0 +1,62 @@
+{
+  "official_domains": [
+    "gov.in",
+    "nic.in",
+    "india.gov.in",
+    "cybercrime.gov.in",
+    "sancharsaathi.gov.in",
+    "uidai.gov.in",
+    "incometax.gov.in",
+    "incometaxindia.gov.in",
+    "echallan.parivahan.gov.in",
+    "parivahan.gov.in",
+    "epfindia.gov.in",
+    "passportindia.gov.in",
+    "sci.gov.in",
+    "delhipolice.gov.in",
+    "mumbaipolice.gov.in",
+    "cbi.gov.in",
+    "enforcementdirectorate.gov.in",
+    "trai.gov.in",
+    "dot.gov.in",
+    "pmkisan.gov.in",
+    "pmaymis.gov.in",
+    "rbi.org.in",
+    "npci.org.in",
+    "onlinesbi.sbi",
+    "sbi.co.in",
+    "hdfcbank.com",
+    "icicibank.com",
+    "axisbank.com",
+    "punjabnationalbank.in",
+    "pnbindia.in",
+    "bankofbaroda.in",
+    "canarabank.com",
+    "unionbankofindia.co.in",
+    "kotak.com",
+    "indusind.com",
+    "paytmbank.com",
+    "postagelog.in",
+    "indiapost.gov.in"
+  ],
+  "safe_tlds": [
+    "gov.in",
+    "nic.in",
+    "res.in",
+    "ac.in",
+    "edu.in",
+    "mil.in"
+  ],
+  "suspicious_tlds": [
+    "xyz", "top", "buzz", "club", "live", "vip", "icu", "site", "online", 
+    "work", "space", "click", "rest", "surf", "fit", "gq", "cf", "tk", "ml", "ga"
+  ],
+  "shortener_domains": [
+    "bit.ly", "tinyurl.com", "t.co", "is.gd", "buff.ly", "ow.ly", "rb.gy",
+    "cutt.ly", "shorturl.at", "tiny.cc", "v.gd", "soo.gd", "qr.ae"
+  ],
+  "remote_access_apps": [
+    "anydesk", "teamviewer", "quicksupport", "rustdesk", "zoho assist", 
+    "airdroid", "splashtop", "screenshare"
+  ]
+}

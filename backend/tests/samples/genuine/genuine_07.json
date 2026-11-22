@@ -1,0 +1,7 @@
+{
+  "id": "genuine_07",
+  "title": "UIDAI Aadhaar Authentication Alert",
+  "category": "Identity Verification Alert",
+  "expected_verdict": "LOOKS GENUINE",
+  "text": "Dear Aadhaar Holder, your Aadhaar ending 9012 was used for biometric authentication at 14:15:30 on 10-Nov-2024. If not done by you, lock your biometrics using mAadhaar app or visit https://uidai.gov.in. UIDAI never calls to ask for OTP."
+}

@@ -1,0 +1,7 @@
+{
+  "id": "scam_15",
+  "title": "FASTag Blacklisted Urgent Recharge Link",
+  "category": "FASTag Phishing",
+  "expected_verdict": "LIKELY SCAM",
+  "text": "NHAI FASTag Alert: Your vehicle FASTag is blacklisted due to incomplete KYC. You will be charged double toll fee at toll plazas. Reactivate immediately by submitting KYC documents at: http://fastag-nhai-kyc.buzz/verify"
+}

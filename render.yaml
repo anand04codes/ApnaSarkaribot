@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: sarkarisach
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: DATABASE_URL
+        value: sqlite:///./sarkarisach.db
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false

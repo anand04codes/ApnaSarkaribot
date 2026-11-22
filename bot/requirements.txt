@@ -1,0 +1,8 @@
+python-telegram-bot>=22.0
+gTTS>=2.5.3
+pydantic>=2.8.0
+tldextract>=5.1.2
+rapidfuzz>=3.9.6
+pillow>=10.4.0
+google-genai>=1.0.0
+

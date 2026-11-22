@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased font-sans text-base;
+  }
+}
+
+/* High-contrast accessible focus outlines */
+*:focus-visible {
+  @apply outline-none ring-2 ring-sarkari-blue ring-offset-2 dark:ring-sky-400 dark:ring-offset-slate-900;
+}
+
+/* Highlighted spans in text */
+.highlight-scam {
+  @apply bg-red-200 dark:bg-red-950/80 text-red-900 dark:text-red-200 px-1 py-0.5 rounded font-medium border-b-2 border-red-500 cursor-pointer transition-colors;
+}
+
+.highlight-scam:hover {
+  @apply bg-red-300 dark:bg-red-900;
+}
+
+/* Pulse animation for recording */
+@keyframes recordPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.08); }
+}
+
+.animate-recording {
+  animation: recordPulse 1.5s infinite ease-in-out;
+}
+

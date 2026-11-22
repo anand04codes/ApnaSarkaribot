@@ -1,0 +1,7 @@
+{
+  "id": "scam_14",
+  "title": "Credit Card Reward Points Expiry Phishing",
+  "category": "Card Phishing",
+  "expected_verdict": "LIKELY SCAM",
+  "text": "ICICI Bank Notice: Your 8,450 reward points worth Rs 8,450 are expiring today at midnight. Redeem cash directly to your card account now: http://reward-icicicard.top/redeem. Enter 16-digit card number, CVV and ATM PIN."
+}
